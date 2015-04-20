@@ -2,112 +2,159 @@
     ViewBag.Title = "Venues";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<div class="single" ng-app="mainApp" ng-controller="venueInfoCtrl">
-    <div class="container">
-        <h2>{{VenueInfo.Name}}</h2>
-        <div class="single-section">
-            <div class="single-pic">
-                <img src="/images/pic5.jpg" alt="">
-            </div>
-            <div class="col-lg-12 row">
-                <div class="col-lg-6 row">
-                    <p>
-                        {{VenueInfo.Description}}
-                    </p>
-                    <h3>Complete Address</h3>
-                    <p>
-                        {{VenueInfo.Address.Address1}}, {{VenueInfo.Address.Area.AreaName}}, {{VenueInfo.Address.Area.City.CityName}}, {{VenueInfo.Address.Area.City.State.StateName}}
-                    </p>
+<div ng-app="mainApp" ng-controller="venueInfoCtrl">
+    <div class="page-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>{{VenueInfo.Name}}</h2>
+                    <span>{{VenueInfo.Address.Address1}}, {{VenueInfo.Address.Area.AreaName}}, {{VenueInfo.Address.Area.City.CityName}}, {{VenueInfo.Address.Area.City.State.StateName}}</span>
                 </div>
-                <div class="col-lg-6 row pull-right">
-                        <div class="price-table-grids" style="width: 65%; float: right">
-                            <div class="price-table-grid price-table-grid2" style="width: 100%">
-                                <div class="price-table-grid-head price-table-grid-head2">
-                                    <h2>Facilities</h2>
-                                </div>
-                                <div class="price-table-grid-info" style="margin-top: 4%">
-                                    <ul>
-                                        <li>
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" />
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" />
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" />
-                                            </div>
-                                        </li>
-                                    </ul>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="container">
+            <div class="row blog-page">
+                <!-- Start Blog Posts -->
+                <div class="col-md-9 blog-box">
+                    <!-- Start Post -->
+                    <div class="blog-post image-post well">
+                        <!-- Post Thumb -->
+                        <div class="post-head">
+                            <a class="lightbox" title="This is an image title" href="images/blog-01.jpg">
+                                <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
+                                <img alt="" src="~/Content/images/blog-01.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <h2>About the venue</h2>
+                            <p> {{VenueInfo.Description}}
+                                Best mall in the jaipur which provides you all the stuffs like shopping, offices etc.
+                                Best mall in the jaipur which provides you all the stuffs like shopping, offices etc.
+                                Best mall in the jaipur which provides you all the stuffs like shopping, offices etc.</p>
+                        </div>
+                        <div style="margin-top: 1%">
+                            <h2>Capacity</h2>
+                            <p>
+                                {{VenueInfo.Capacity}}
+                            </p>
+                        </div>
+                        <div style="margin-top: 1%">
+                            <h2>Facilities</h2>
+                            <p>
+                                <ul>
+                                    <li ng-repeat="facility in Facilities">{{facility.FacilityName}}</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Post -->
+                    
+                    <div class="container">
 
+                        <div class="row">
+
+                            <div class="col-md-8">
+
+                                <!-- Classic Heading -->
+                                <h4 class="classic-title"><span>Post a review</span></h4>
+                                <!-- Start Contact Form -->
+                                <div id="contact-form" class="contatct-form">
+                                    <div class="loader"></div>
+                                    <form class="contactForm" name="cform" ng-submit="Save(Review)">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <label for="name">Name<span class="required">*</span></label>
+                                                <span class="name-missing">First Name</span>
+                                                <input id="name" name="name" ng-model="Review.FirstName" type="text" value="" size="30">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="e-mail">Email<span class="required">*</span></label>
+                                                <span class="email-missing">Last Name</span>
+                                                <input id="e-mail" name="email" ng-model="Review.LastName" type="text" value="" size="30">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="url">Contact</label>
+                                                <input id="url" name="url" type="text" ng-model="Review.Contact" value="" size="30">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <label for="url">Email</label>
+                                                <input id="url" name="url" type="text" ng-model="Review.Email" value="" size="30">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <label for="message">Add Your Comment</label>
+                                                <span class="message-missing">Say something!</span>
+                                                <textarea id="message" ng-model="Review.ReviewText" name="message" cols="20" rows="3"></textarea>
+                                                <input type="submit" name="submit" class="button" id="submit_btn" value="Submit Review">
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
+                                <!-- End Contact Form -->
                             </div>
-                            <div class="clear"> </div>
                         </div>
+                    </div>
+
+                    <!-- Start Post -->
+                    <div class="blog-post quote-post" style="margin-top: 3%">
+                        <!-- Post Content -->
+                        <div class="post-content" ng-repeat="review in VenueReviews | limitTo : 5">
+                            <div class="post-type"><i class="fa fa-quote-left"></i></div>
+                            <div class="qoute-box">
+                                <a href="#">
+                                    <h2>{{review.Reviews.ReviewText}}</h2>
+                                </a>
+                            </div>
+                            <ul class="post-meta">
+                                <li>By <a href="#">{{review.Reviews.Customer.FirstName}} {{review.Reviews.Customer.LastName}}</a></li>
+                                <li>{{review.Reviews.Customer.CreatedAt | date: 'MMM dd, yyyy hh:mm:ss'}}</li>
+                            </ul>
+                        </div>
+
+                        <!-- Start Contact Form -->
+                        <!-- End Contact Form -->
+
+                    </div>
+                    <!-- End Post -->
                 </div>
-                <h3>Facilities</h3>
-                <div class="col-lg-12">
-                    <p>
+                <!-- End Blog Posts -->
+                <!--Sidebar-->
+                <div class="col-md-3 sidebar right-sidebar">
+
+                    <!-- Search Widget -->
+                    <div class="widget widget-search">
+                        <form action="#">
+                            <input type="search" placeholder="Enter City...">
+                            <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+
+                    <!-- Categories Widget -->
+                    <div class="widget widget-categories">
+                        <h4>GET THE BEST DEALS <span class="head-line"></span></h4>
                         <ul>
-                            <li ng-repeat="facility in Facilities">{{facility.FacilityName}}</li>
+                            <li>
+                                Name: <input type="text" class="form-control" ng-model="Inq.Name" />
+                            </li>
+                            <li>
+                                Email: <input type="text" class="form-control" ng-model="Inq.Email" />
+                            </li>
+                            <li>
+                                Mobile No: <input type="text" class="form-control" ng-model="Inq.Contact" />
+                            </li>
+                            <li>
+                                No of people: <input type="text" class="form-control" ng-model="Inq.People" />
+                            </li>
                         </ul>
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-12">
-                <div class="gallery-grids">
-                    <div class="col-md-12 gallery-grid11">
-                        <div class="gallery1-grid">
-                            <div class="gallery-grid02">
-                                <a href="/images/img4.jpg" class="swipebox"><img src="/images/img4.jpg"></a>
-                            </div>
-                            <div class="gallery-grid02">
-                                <a href="/images/img7.jpg" class="swipebox"><img src="/images/img7.jpg"></a>
-                            </div>
-                            <div class="gallery-grid02">
-                                <a href="/images/img4.jpg" class="swipebox"><img src="/images/img4.jpg"></a>
-                            </div>
-                            <div class="gallery-grid02">
-                                <a href="/images/img7.jpg" class="swipebox"><img src="/images/img7.jpg"></a>
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
+                        <button class="btn-system btn-small btn-gray" style="margin-top: 3%" ng-click="Send(Inq)">Submit</button>
                     </div>
-                    <div class="clearfix"> </div>
                 </div>
-            </div>
-            <div class="col-lg-10">
-                <div class="content-form">
-                    <h3>Leave a comment</h3>
-                    <form ng-submit="Save(Review)">
-                        <div class="row col-lg-12">
-                            <div class="row col-lg-4"><input type="text"  placeholder="First Name" style="width: 95%" ng-model="Review.FirstName"/></div>
-                            <div class="row col-lg-4"><input type="text" placeholder="Last Name" style="width: 95%" ng-model="Review.LastName"/></div>
-                        </div>
-                        <div class=" row col-lg-12">
-                            <input type="text" placeholder="Email" style="width: 58.5%" ng-model="Review.Email" />
-                        </div>
-                        <div class="row col-lg-12">
-                            <input type="text" placeholder="Contact Number" style="width: 58.5%" ng-model="Review.Contact" />
-                        </div>
-                        <div class="row col-lg-12">
-                            <textarea placeholder="Message" style="width: 58.5%" ng-model="Review.ReviewText"></textarea>
-                        </div>
-                        <input type="submit" value="SEND">
-                    </form>
-                </div>
-                <div class="comments">
-                    <h3>Reviews</h3>
-                    <div class="alert alert-dismissable" ng-show="VenueReviews.length < 1">
-                        <p>There are no reviews yet for the venue.</p>
-                    </div>
-                    <div class="comment-info" ng-repeat="review in VenueReviews | limitTo : 5">
-                        <h4>{{review.Reviews.Customer.FirstName}} {{review.Reviews.Customer.LastName}}</h4>
-                        <p>{{review.Reviews.ReviewText}}</p>
-                        <h5>{{review.Reviews.Customer.CreatedAt | date: 'dd/MM/yyyy hh:mm:ss'}}</h5>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
+                <!--End sidebar-->
+
+
             </div>
         </div>
     </div>

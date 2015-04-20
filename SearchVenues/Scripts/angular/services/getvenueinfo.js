@@ -6,6 +6,14 @@ mainApp.factory("getvenueinfo", function ($http) {
                 url: "/api/Venues/" + id,
                 method: "GET"
             }).success(callback);
+        },
+        
+        sendMail: function (inq, callback) {
+            $http({
+                url: "/api/Inquery/",
+                method: "Post",
+                data: inq
+            }).success(callback);
         }
     }
 })

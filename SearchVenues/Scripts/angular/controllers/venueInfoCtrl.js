@@ -1,5 +1,5 @@
 ﻿/// <reference path="../mainApp.js" />
-mainApp.controller("venueInfoCtrl", ["$scope", "getvenueinfo", "getFacilities", "reviewsService", "venuereviewService", function ($scope, getvenueinfo, getFacilities, reviewsService, venuereviewService) {
+mainApp.controller("venueInfoCtrl", ["$scope", "getvenueinfo", "getFacilities", "reviewsService", "venuereviewService", "$modal", "$http", function ($scope, getvenueinfo, getFacilities, reviewsService, venuereviewService, $modal, $http) {
     var url = document.URL;
     $scope.Request = new Request();
     var venueId = url.substring(url.lastIndexOf('/') + 1);
@@ -15,6 +15,24 @@ mainApp.controller("venueInfoCtrl", ["$scope", "getvenueinfo", "getFacilities", 
             $scope.Facilities = data.Data;
         })
     }
+
+    $scope.Inquery = function () {
+        var modalInstance = $modal.open({
+            templateUrl: "/Home/_Inquery",
+            
+        })
+    }
+
+    $scope.Send = function (inq) {
+        $http({
+            url: "/api/Inquery",
+            method: "POST",
+            data: inq
+        }).success(function (data) {
+            console.log(data.Data);
+        });
+    }
+
     $scope.Save = function (review) {
         var url = document.URL;
         var Id = url.substring(url.lastIndexOf('/') + 1);

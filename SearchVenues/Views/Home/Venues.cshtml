@@ -11,7 +11,7 @@
 }
 </style>
 <div ng-app="mainApp" ng-controller="venuesCtrl">
-    <div class="page-banner no-subtitle">
+    @*<div class="page-banner no-subtitle">
         <div class="container">
             <div class="col-lg-12">
                 <div class="row col-lg-5">
@@ -43,25 +43,61 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div id="content">
-        <div class="container">
-            <div class="page-content">
-                <div class="row">
-                    <div class="col-md-4 image-service-box" ng-repeat="items in Venues">
-                        <img class="img-thumbnail" src="~/Content/images/service-01.jpg" alt="">
-                        <a href="/Home/VenueInfo/{{items.VenueID}}"><h4>{{items.Name}}</h4></a>
-                        <p>{{items.Description}}</p>
-                        <p><strong>Location: </strong>{{items.Address.Address1}} {{items.Address.Area.AreaName}}, {{items.Address.Area.City.CityName}} </p>
-                    </div>
-                    <!-- End Image Service Box 3 -->
+    </div>*@
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="col-lg-8 col-md-8">
+                <div class="well" ng-repeat="items in Venues">
+                    <a href="/Home/VenueInfo/{{items.VenueID}}"><strong style="font-size: large">{{items.Name}}</strong></a>
+                    <button class="pull-right btn btn-custom-small btn-1c btn1 btn-1d" type="button" ng-click="Inquiry(items.VenueID)">Inquiry</button>
+                    <p>{{items.Description}}</p>
+                    <span class="text-muted">Location: {{items.Address.Address1}} {{items.Address.Area.AreaName}}, {{items.Address.Area.City.CityName}} </span>
+                    <br />
                 </div>
-                <!-- Divider -->
+            </div>
+            <div class="col-lg-3 col-md-3 sidebar right-sidebar">
+                <!-- Search Widget -->
+                <div>
+                    <span style="font-size: larger" ng-model="SearchText">Currently showing in: </span>
+                    <strong ng-show="ChangeSelection">{{CurrentCity}}</strong>
+                    <a href="" ng-show="ChangeSelection" ng-click="Change()">Change</a>
+                </div>
+                <div ng-hide="ChangeSelection">
+                    <select class="form-control" id="select" ng-model="SearchText" ng-change="Search(SearchText)">
+                        <option ng-repeat="city in Cities" value="{{city.value}}">{{city.display}}</option>
+                    </select>
+                </div>
                 <div class="hr1" style="margin-bottom:45px;"></div>
+
+                <!-- Categories Widget -->
+                <div class="widget widget-categories">
+                    <h4>Apply Filters <span class="head-line"></span></h4>
+                    <ul>
+                        <li>
+                            No of guests <input type="text" ng-model="Filter.Capacity" class=" form-control" />
+                        </li>
+                        <li>
+                            Budget <input type="text" class="form-control" ng-model="Filter.Budget" />
+                        </li>
+                        <li>
+                            Facilities 
+                            <input type="checkbox" value="1" ng-model="Filter.FacilityType1" ng-change="selectFacility(1, Filter.FacilityType1)" />AC
+                            <input type="checkbox" value="3" ng-model="Filter.FacilityType2" ng-change="selectFacility(3, Filter.FacilityType2)" />Bar
+                            <input type="checkbox" value="4" ng-model="Filter.FacilityType3" ng-change="selectFacility(4, Filter.FacilityType3)" />5 Star
+                            <input type="checkbox" value="5" ng-model="Filter.FacilityType4" ng-change="selectFacility(5, Filter.FacilityType4)" />3 Star
+                        </li>
+                        <li>
+                            <button class="btn-system btn-small" ng-click="ApplyFilter(Filter)">Apply</button>
+                            <button class="btn-system btn-small" ng-click="Resest()">Rsest</button>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
+
     </div>
-</div>
+                <!-- Divider -->
+    </div>
 
 <script src="~/Scripts/jquery.min.js"></script>
 <script src="~/Scripts/select2.js"></script>

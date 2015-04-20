@@ -24,6 +24,10 @@ mainApp.controller('venuesCtrl', ['$timeout', '$scope', '$http', 'getCities', fu
       });
     };
 
+    $scope.Reset = function () {
+        $scope.Init();
+    }
+
     $scope.Change = function () {
         $scope.ChangeSelection = false;
     }
@@ -67,16 +71,21 @@ mainApp.controller('venuesCtrl', ['$timeout', '$scope', '$http', 'getCities', fu
         id = id == "Venues" ? 0 : id;
         var budget = filter.Budget != null || typeof (filter.Budget) !== "undefined" ? filter.Budget : 0;
         var capacity = filter.Capacity != null || typeof (filter.Capacity) !== "undefined" ? filter.Capacity : 0;
-        $scope.Request = new Request();
-        $scope.Request.Criteria = "[{Key: 'LocationID', Value: '" + id + "'}, {Key: 'Capacity', Value: '" + capacity + "'}, {Key: 'Cost', Value: '" + budget + "'}, {Key: 'VanueFacilities', Value: '" + $scope.SelectedTypes + "'}]";
-        $http({
-            method: "GET",
-            url: "/api/Venues",
-            params: $scope.Request.get()
-        }).success(function (callback) {
-            $scope.Venues = callback.Data;
-            console.log($scope.Venues);
-        });
+        if (budget == 0 && capacity == 0 && $scope.SelectedTypes.length < 1) {
+            $scope.Init();
+        }
+        else {
+            $scope.Request = new Request();
+            $scope.Request.Criteria = "[{Key: 'LocationID', Value: '" + id + "'}, {Key: 'Capacity', Value: '" + capacity + "'}, {Key: 'Cost', Value: '" + budget + "'}, {Key: 'VanueFacilities', Value: '" + $scope.SelectedTypes + "'}]";
+            $http({
+                method: "GET",
+                url: "/api/Venues",
+                params: $scope.Request.get()
+            }).success(function (callback) {
+                $scope.Venues = callback.Data;
+                console.log($scope.Venues);
+            });
+        }
     }
 
   $scope.Init();

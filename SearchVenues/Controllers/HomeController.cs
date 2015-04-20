@@ -87,5 +87,10 @@ namespace SearchVenues.Controllers
                 return RedirectToAction("Suppliers");
             }
         }
+
+        public ActionResult _Inquery()
+        {
+            return PartialView();
+        }
     }
 }
