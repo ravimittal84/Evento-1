@@ -1,0 +1,189 @@
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\SearchVenues.dll.config
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\SearchVenues.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\SearchVenues.pdb
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Antlr3.Runtime.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\EntityFramework.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\EntityFramework.SqlServer.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.Google.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Web.Infrastructure.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Newtonsoft.Json.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Owin.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Net.Http.Formatting.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.Helpers.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.Http.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.Http.Owin.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.Http.WebHost.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.Mvc.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.Optimization.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.Razor.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.WebPages.Deployment.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.WebPages.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.WebPages.Razor.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\WebGrease.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Newtonsoft.Json.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Net.Http.Formatting.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.Helpers.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.Http.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.Http.WebHost.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.Mvc.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.Optimization.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.Razor.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.WebPages.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.WebPages.Deployment.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.WebPages.Razor.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Antlr3.Runtime.pdb
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\EntityFramework.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\EntityFramework.SqlServer.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.Google.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\bin\System.Web.Http.Owin.xml
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\obj\Debug\SearchVenues.csprojResolveAssemblyReference.cache
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\obj\Debug\SearchVenues.dll
+c:\users\adelantelabs\documents\visual studio 2013\Projects\SearchVenues\SearchVenues\obj\Debug\SearchVenues.pdb
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\obj\Debug\SearchVenues.csprojResolveAssemblyReference.cache
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\SearchVenues.dll.config
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\SearchVenues.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\SearchVenues.pdb
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Antlr3.Runtime.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\EntityFramework.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\EntityFramework.SqlServer.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.Google.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Web.Infrastructure.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Newtonsoft.Json.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Owin.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Net.Http.Formatting.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.Helpers.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.Http.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.Http.Owin.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.Http.WebHost.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.Mvc.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.Optimization.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.Razor.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.WebPages.Deployment.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.WebPages.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.WebPages.Razor.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\WebGrease.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Newtonsoft.Json.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Net.Http.Formatting.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.Helpers.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.Http.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.Http.WebHost.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.Mvc.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.Optimization.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.Razor.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.WebPages.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.WebPages.Deployment.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.WebPages.Razor.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Antlr3.Runtime.pdb
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\EntityFramework.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\EntityFramework.SqlServer.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.Google.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\bin\System.Web.Http.Owin.xml
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\obj\Debug\SearchVenues.dll
+D:\Old Backup\Visual Studio 2013\SearchVenues\SearchVenues\obj\Debug\SearchVenues.pdb
+D:\Evento\SearchVenues\bin\SearchVenues.dll.config
+D:\Evento\SearchVenues\bin\SearchVenues.dll
+D:\Evento\SearchVenues\bin\SearchVenues.pdb
+D:\Evento\SearchVenues\bin\Antlr3.Runtime.dll
+D:\Evento\SearchVenues\bin\EntityFramework.dll
+D:\Evento\SearchVenues\bin\EntityFramework.SqlServer.dll
+D:\Evento\SearchVenues\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Evento\SearchVenues\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Evento\SearchVenues\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Evento\SearchVenues\bin\Microsoft.Owin.dll
+D:\Evento\SearchVenues\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Evento\SearchVenues\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Evento\SearchVenues\bin\Microsoft.Owin.Security.dll
+D:\Evento\SearchVenues\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Evento\SearchVenues\bin\Microsoft.Owin.Security.Google.dll
+D:\Evento\SearchVenues\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Evento\SearchVenues\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Evento\SearchVenues\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Evento\SearchVenues\bin\Microsoft.Web.Infrastructure.dll
+D:\Evento\SearchVenues\bin\Newtonsoft.Json.dll
+D:\Evento\SearchVenues\bin\Owin.dll
+D:\Evento\SearchVenues\bin\System.Net.Http.Formatting.dll
+D:\Evento\SearchVenues\bin\System.Web.Helpers.dll
+D:\Evento\SearchVenues\bin\System.Web.Http.dll
+D:\Evento\SearchVenues\bin\System.Web.Http.Owin.dll
+D:\Evento\SearchVenues\bin\System.Web.Http.WebHost.dll
+D:\Evento\SearchVenues\bin\System.Web.Mvc.dll
+D:\Evento\SearchVenues\bin\System.Web.Optimization.dll
+D:\Evento\SearchVenues\bin\System.Web.Razor.dll
+D:\Evento\SearchVenues\bin\System.Web.WebPages.Deployment.dll
+D:\Evento\SearchVenues\bin\System.Web.WebPages.dll
+D:\Evento\SearchVenues\bin\System.Web.WebPages.Razor.dll
+D:\Evento\SearchVenues\bin\WebGrease.dll
+D:\Evento\SearchVenues\bin\Newtonsoft.Json.xml
+D:\Evento\SearchVenues\bin\System.Net.Http.Formatting.xml
+D:\Evento\SearchVenues\bin\System.Web.Helpers.xml
+D:\Evento\SearchVenues\bin\System.Web.Http.xml
+D:\Evento\SearchVenues\bin\System.Web.Http.WebHost.xml
+D:\Evento\SearchVenues\bin\System.Web.Mvc.xml
+D:\Evento\SearchVenues\bin\System.Web.Optimization.xml
+D:\Evento\SearchVenues\bin\System.Web.Razor.xml
+D:\Evento\SearchVenues\bin\System.Web.WebPages.xml
+D:\Evento\SearchVenues\bin\System.Web.WebPages.Deployment.xml
+D:\Evento\SearchVenues\bin\System.Web.WebPages.Razor.xml
+D:\Evento\SearchVenues\bin\Antlr3.Runtime.pdb
+D:\Evento\SearchVenues\bin\EntityFramework.xml
+D:\Evento\SearchVenues\bin\EntityFramework.SqlServer.xml
+D:\Evento\SearchVenues\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Evento\SearchVenues\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Evento\SearchVenues\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Evento\SearchVenues\bin\Microsoft.Owin.xml
+D:\Evento\SearchVenues\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Evento\SearchVenues\bin\Microsoft.Owin.Security.xml
+D:\Evento\SearchVenues\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Evento\SearchVenues\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Evento\SearchVenues\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Evento\SearchVenues\bin\Microsoft.Owin.Security.Google.xml
+D:\Evento\SearchVenues\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Evento\SearchVenues\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Evento\SearchVenues\bin\System.Web.Http.Owin.xml
+D:\Evento\SearchVenues\obj\Debug\SearchVenues.dll
+D:\Evento\SearchVenues\obj\Debug\SearchVenues.pdb
+D:\Evento\SearchVenues\obj\Debug\SearchVenues.csprojResolveAssemblyReference.cache

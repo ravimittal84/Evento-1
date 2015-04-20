@@ -1,0 +1,54 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="~/Content/responsive.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/flexslider.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link href="~/Content/angular-material/angular-material.css" rel="stylesheet" />
+    <link href="~/Content/angular-material/style.css" rel="stylesheet" />
+</head>
+<body>
+    @using (Html.BeginForm("Login", "Accounts", FormMethod.Post))
+    {
+        <div ng-app="mainApp" ng-controller="accountsCtrl">
+            <md-toolbar class="md-warn">
+                <div class="md-toolbar-tools">
+                    <h2 class="md-flex">Enter email and password to login</h2>
+                </div>
+            </md-toolbar>
+            <md-content class="md-padding" style="height: 600px;padding: 24px;">
+                <md-input-container>
+                    <label>Email</label>
+                    <input ng-model="user.email" type="email" name="Username">
+                </md-input-container>
+                <md-input-container>
+                    <label>Password</label>
+                    <input ng-model="user.password" type="password" name="Password">
+                </md-input-container>
+                <section layout="row" layout-sm="column" layout-align="center center">
+                    <md-button class="md-raised" ng-click="Login()">Login</md-button>
+                </section>
+            </md-content>
+
+        </div>
+    }
+        
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular-aria.js"></script>
+    <script src="~/Scripts/ui-bootstrap-tpls-0.12.0.min.js"></script>
+    <script src="~/Scripts/angular-animate.js"></script>
+    <script src="~/Scripts/angular-material.js"></script>
+    <script src="~/Scripts/angular/mainApp.js"></script>
+    <script src="~/Scripts/angular/controllers/accountsCtrl.js"></script>
+    <script src="~/Scripts/angular-material/components/button/button.js"></script>
+</body>
+</html>

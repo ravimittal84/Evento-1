@@ -1,0 +1,83 @@
+﻿@model List<SearchVenues.Models.Models.Venue>
+@{
+    ViewBag.Title = "Venues";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+.btn-custom-small{
+    height: 25px;
+    width: 80px;
+    font-size: x-small;
+}
+</style>
+<div ng-app="mainApp" ng-controller="venuesCtrl">
+    <div class="page-banner no-subtitle">
+        <div class="container">
+            <div class="col-lg-12">
+                <div class="row col-lg-5">
+                    <span style="font-size: larger" ng-model="SearchText">Currently showing in: </span>
+                    <strong ng-show="ChangeSelection">{{CurrentCity}}</strong>
+                        <a href="" ng-show="ChangeSelection" ng-click="Change()">Change</a>
+                </div>
+                <div class="col-lg-4" ng-hide="ChangeSelection">
+                    <select class="form-control" id="select" ng-model="SearchText" ng-change="Search(SearchText)">
+                        <option ng-repeat="city in Cities" value="{{city.value}}">{{city.display}}</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-lg-12" style="margin-top: 25px">
+                <div class="col-lg-3 form-group">
+                    <input type="text" class="form-control" ng-model="Filter.Capacity" placeholder="No of guests" />
+                </div>
+                <div class="col-lg-3 row form-group">
+                    <input type="text" class="form-control" ng-model="Filter.Budget" placeholder="Budget" />
+                </div>
+                <div class="col-lg-4  form-group">
+                    <input type="checkbox" value="1" ng-model="Filter.FacilityType1" ng-change="selectFacility(1, Filter.FacilityType1)" />AC
+                    <input type="checkbox" value="3" ng-model="Filter.FacilityType2" ng-change="selectFacility(3, Filter.FacilityType2)" />Bar
+                    <input type="checkbox" value="4" ng-model="Filter.FacilityType3" ng-change="selectFacility(4, Filter.FacilityType3)" />5 Star
+                    <input type="checkbox" value="5" ng-model="Filter.FacilityType4" ng-change="selectFacility(5, Filter.FacilityType4)" />3 Star
+                </div>
+                <div class="col-lg-2">
+                    <button class="btn-system btn-small border-btn" ng-click="ApplyFilter(Filter)">Apply</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="container">
+            <div class="page-content">
+                <div class="row">
+                    <div class="col-md-4 image-service-box" ng-repeat="items in Venues">
+                        <img class="img-thumbnail" src="~/Content/images/service-01.jpg" alt="">
+                        <a href="/Home/VenueInfo/{{items.VenueID}}"><h4>{{items.Name}}</h4></a>
+                        <p>{{items.Description}}</p>
+                        <p><strong>Location: </strong>{{items.Address.Address1}} {{items.Address.Area.AreaName}}, {{items.Address.Area.City.CityName}} </p>
+                    </div>
+                    <!-- End Image Service Box 3 -->
+                </div>
+                <!-- Divider -->
+                <div class="hr1" style="margin-bottom:45px;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/jquery.min.js"></script>
+<script src="~/Scripts/select2.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#select").select2();
+    })
+   
+</script>
+<script src="~/Scripts/angular.js"></script>
+<script src="~/Scripts/ui-bootstrap-tpls-0.12.0.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/angular/mainApp.js"></script>
+<script src="~/Scripts/angular/controllers/venuesCtrl.js"></script>
+<script src="~/Scripts/angular/Request.js"></script>
+<script src="~/Scripts/angucomplete.js"></script>
+<script src="~/Scripts/angular/services/getcities.js"></script>
+
+
